@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mnemoverse": {
+      "command": "npx",
+      "args": ["-y", "@mnemoverse/mcp-memory-server@latest"],
+      "env": {
+        "MNEMOVERSE_API_KEY": "${MNEMOVERSE_API_KEY}",
+        "MNEMOVERSE_API_URL": "${MNEMOVERSE_API_URL:-https://core.mnemoverse.com/api/v1}"
+      }
+    }
+  }
+}
